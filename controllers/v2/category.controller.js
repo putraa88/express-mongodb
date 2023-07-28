@@ -37,6 +37,7 @@ module.exports = {
         /*
         
             logic goes here
+            sudah saya ganti logic baru
         */
     },
 
