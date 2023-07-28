@@ -32,6 +32,14 @@ module.exports = {
         }
     },
 
+    DeleteCateogry: async (req, res, next) => {
+        // TODO:
+        /*
+        
+            logic goes here
+        */
+    },
+
     UpdateProduct: async (req, res, next) => {
         try {
             await products.updateOne({ _id: new ObjectId(req.params.id) }, {
